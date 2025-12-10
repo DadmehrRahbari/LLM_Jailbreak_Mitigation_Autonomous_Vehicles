@@ -137,9 +137,19 @@ Vendor-agnostic by design. Works with:
 ## ✅ Use Cases
 
 - Enterprise AI applications
-- Autonomous systems
-- AI customer support platforms
-- Regulated industry deployments
+- AI-powered customer support systems
+- Safety-critical AI deployments
+
+### High-Integrity and Safety-Critical Domains
+
+Designed to support defensive security in environments where reliability and safety are critical, including:
+
+- Autonomous and semi-autonomous vehicle AI systems
+- Advanced driver-assistance systems (ADAS)
+- Robotics and industrial automation
+- Medical and healthcare AI safety layers
+
+> This project is designed strictly as a defensive security layer and does **not** provide offensive capabilities or control of physical systems.
 
 ---
 
