@@ -87,10 +87,10 @@ def is_prompt_blocked(prompt: str) -> tuple[bool, str]:
 def check_and_log(prompt: str, response: str | None = None):
     blocked, reason = is_prompt_blocked(prompt)
     if blocked:
-        print(f"🚨 BLOCKED: {reason}\n→ Prompt: {prompt}\n")
+        print(f"BLOCKED: {reason}\n→ Prompt: {prompt}\n")
         log_block(prompt, reason, response)
     else:
-        print(f"✅ SAFE: No prompt injection or jailbreak detected.\n→ Prompt: {prompt}\n")
+        print(f"SAFE: No prompt injection or jailbreak detected.\n→ Prompt: {prompt}\n")
         log_block(prompt, None, response)
 
 
